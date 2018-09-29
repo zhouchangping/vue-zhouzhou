@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=flexible content=""><title>my-vue</title><script src=https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js type=text/javascript></script><link href=/static/css/app.caceded2b8d5514cfb4ca57027840652.css rel=stylesheet></head><body><div id=app class=page-container></div><script type=text/javascript src=/static/js/manifest.819f9bc7d6e95dd05efa.js></script><script type=text/javascript src=/static/js/vendor.4337be3b87bfc2588229.js></script><script type=text/javascript src=/static/js/app.e5465afb37dbe38fdfbb.js></script></body><style>html {
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=flexible content=""><title>my-vue</title><script src=https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js type=text/javascript></script><link href=/static/css/app.9e85b032d242acf03fd1c38de1fb9880.css rel=stylesheet></head><body><div id=app class=page-container></div><script type=text/javascript src=/static/js/manifest.af834b5b9a365239cae6.js></script><script type=text/javascript src=/static/js/vendor.4337be3b87bfc2588229.js></script><script type=text/javascript src=/static/js/app.43dfa2fa41b033d85bb5.js></script></body><style>html {
   height: 100%;
 }
 
@@ -14,7 +14,11 @@ body {
     padding: 0;
     box-sizing: border-box;
     outline: 0;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent; /*当你点击一个链接或者通过Javascript定义的可点击元素的时候，它就会出现一个半透明的灰色背景*/
+}
+
+a, a:active, a:link, a:hover, a:visited {
+  text-decoration: none;
 }
 
 p {
@@ -34,6 +38,11 @@ p {
   height: 100%;
   display: flex;
   padding-bottom: 100px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: none; /*一按钮(样式一样)会显示不一样的颜色,去除浏览器默认样式*/
+  appearance: none;
+  color: #2c3e50;
 }
 
 input {
