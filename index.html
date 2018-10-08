@@ -1,9 +1,10 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=flexible content=""><title>my-vue</title><link href=/static/css/app.0feb50b1d338d8b61d1dcefcc4438138.css rel=stylesheet></head><body><div id=app class=page-container></div><script type=text/javascript src=/static/js/manifest.e1628730f11d046a1178.js></script><script type=text/javascript src=/static/js/vendor.bc1c6a93d784324a2d1a.js></script><script type=text/javascript src=/static/js/app.83fa227b373b06176feb.js></script></body><style>html {
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=flexible content=""><title>my-vue</title><link href=/static/css/app.01c8c2686499ab227ce8b1cf89b100de.css rel=stylesheet></head><body><div id=app class=page-container></div><script type=text/javascript src=/static/js/manifest.e2f80e9772bb04512e8f.js></script><script type=text/javascript src=/static/js/vendor.56dbe6c2bc0f308993c7.js></script><script type=text/javascript src=/static/js/app.c2ad8bc6a8584c3f5596.js></script></body><style>html {
   height: 100%;
 }
 
 body {
-  height:100%;
+  position: relative; /*针对ie6里面有position的bug*/
+  height:100%; /*针对ie6弹框背景出来了高度不够加的*/
   margin: 0;
   padding: 0;
   font-family: "PingFang SC",  "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
@@ -16,21 +17,10 @@ body {
     outline: 0;
     -webkit-tap-highlight-color: transparent; /*当你点击一个链接或者通过Javascript定义的可点击元素的时候，它就会出现一个半透明的灰色背景*/
 }
+image-webpack-loader
 
 a, a:active, a:link, a:hover, a:visited {
   text-decoration: none;
-}
-
-p {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    line-height: 0.506667rem;
-    max-height: 1.013333rem;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-    white-space: normal;
 }
 
 #app {
