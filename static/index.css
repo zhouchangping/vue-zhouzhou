@@ -275,6 +275,23 @@ em {
   text-indent: 0;
 }
 
+/* .page-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #f3f3f3;
+  color: #000;
+  text-align: center;
+  line-height: 1.6rem;
+  z-index: 3;
+  /* box-shadow: 0 0.053333rem 0.106667rem rgba(0, 0, 0, 0.1); */
+} */
+
 
 /* 动画参数 */
 .fadeMask-enter-active,
