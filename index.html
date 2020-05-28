@@ -1,0 +1,78 @@
+<html><head><link href=/static/css/app.9225608a7c802f440a870514ea173fba.css rel=stylesheet></head><head><meta charset=utf-8><meta name=flexible content=""><meta name=description content=个人博客><meta name=keywords content=vue,js><meta name=author content=周昌平,895817341@qq.com><meta http-equiv=X-UA-Compatible content="IE=edge, chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no,viewport-fit=cover"><meta http-equiv=”cache-control” content=”no-cache”><title>小小周虾</title><link rel=icon href=/static/img/avater.jpg type=image/x-icon><link rel=stylesheet href=./static/index.css><script>// 记录页面加载开始时间
+    var timerStart = Date.now();</script><link rel=preload href=/static/js/runtime.efcb1e250b8230c18463.js as=script><link rel=preload href=/static/js/vendor.25fb7c76e0b355d9c8cd.js as=script><link rel=preload href=/static/js/app.0d8c2245a4de7c2a841a.js as=script><link rel=preload href=/static/css/app.9225608a7c802f440a870514ea173fba.css as=style onload="this.onload=null;this.rel='stylesheet';window.STYLE_READY=1;window.mountApp&&window.mountApp();"><noscript><link rel=stylesheet href=/static/css/app.9225608a7c802f440a870514ea173fba.css></noscript><script>! function (t) {
+      "use strict";
+      t.loadCSS || (t.loadCSS = function () {});
+      var e = loadCSS.relpreload = {};
+      if (e.support = function () {
+          var e;
+          try {
+            e = t.document.createElement("link").relList.supports("preload")
+          } catch (t) {
+            e = !1
+          }
+          return function () {
+            return e
+          }
+        }(), e.bindMediaToggle = function (t) {
+          function e() {
+            t.media = a
+          }
+          var a = t.media || "all";
+          t.addEventListener ? t.addEventListener("load", e) : t.attachEvent && t.attachEvent("onload", e), setTimeout(
+            function () {
+              t.rel = "stylesheet", t.media = "only x"
+            }), setTimeout(e, 3e3)
+        }, e.poly = function () {
+          if (!e.support())
+            for (var a = t.document.getElementsByTagName("link"), n = 0; n < a.length; n++) {
+              var o = a[n];
+              "preload" !== o.rel || "style" !== o.getAttribute("as") || o.getAttribute("data-loadcss") || (o
+                .setAttribute("data-loadcss", !0), e.bindMediaToggle(o))
+            }
+        }, !e.support()) {
+        e.poly();
+        var a = t.setInterval(e.poly, 500);
+        t.addEventListener ? t.addEventListener("load", function () {
+          e.poly(), t.clearInterval(a)
+        }) : t.attachEvent && t.attachEvent("onload", function () {
+          e.poly(), t.clearInterval(a)
+        })
+      }
+      "undefined" != typeof exports ? exports.loadCSS = loadCSS : t.loadCSS = loadCSS
+    }("undefined" != typeof global ? global : this);</script><body><div id=app></div><script>document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState == 'hidden') {
+        normal_title = document.title;
+        document.title = '记得回来哦~';
+      } else {
+        document.title = '哈哈哈，你又回来了！';
+      }
+    });</script><script type=text/javascript>document.addEventListener('DOMContentLoaded', function () {
+      console.log("DOM 挂载时间: ", Date.now() - timerStart);
+      // 性能日志上报
+    });
+    window.addEventListener('load', function () {
+      console.log("所有资源加载完成时间: ", Date.now() - timerStart);
+      // 性能日志上报
+    });</script><script type=text/javascript>window.onerror = function (errorMessage, scriptURI, lineNo, columnNo, error) {
+      // console.log("errorMessage: " + errorMessage); // 异常信息
+      // console.log("scriptURI: " + scriptURI); // 异常文件路径
+      // console.log("lineNo: " + lineNo); // 异常行号
+      // console.log("columnNo: " + columnNo); // 异常列号
+      // console.log("error: " + error); // 异常堆栈信息
+      console.log(1)
+      // ...
+      // 异常上报
+    };
+    window.addEventListener('error', function () {
+      // console.log(error);
+      console.log(2)
+      // ...
+      // 异常上报
+    });
+    // try { // 在catch中捕获了，不会冒泡到全局onError,vue中对组件设置了try{} catch() {},也不会冒泡到顶部
+    //   throw new Error('hahhah');
+    // } catch (err) {
+    //   //console.log('3333')
+    // }
+    //throw new Error('这是一个错误'); // 1, 2</script><script>// let a = /^[./]|(^[a-zA-Z]:)/.test('$');
+    // console.log(a)</script><script type=text/javascript src=/static/js/runtime.efcb1e250b8230c18463.js></script><script type=text/javascript src=/static/js/vendor.25fb7c76e0b355d9c8cd.js></script><script type=text/javascript src=/static/js/app.0d8c2245a4de7c2a841a.js></script></body></head></html>
